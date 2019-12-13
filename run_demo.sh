@@ -1,0 +1,3 @@
+#python tools/demo.py --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml     TEST.MODEL_FILE models/pytorch/pose_coco/pose_hrnet_w32_256x192.pth DATASET.DATASET img_coco DATASET.ROOT data/smallset TEST.COCO_BBOX_FILE data/smallset/smallset_train.json 
+python tools/demo.py --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml     TEST.MODEL_FILE models/pytorch/pose_coco/pose_hrnet_w32_256x192.pth DATASET.DATASET img_coco DATASET.ROOT data/office1 TEST.COCO_BBOX_FILE data/office1/office1_coco_gt.json 
+#python tools/demo.py --cfg experiments/coco/hrnet/w32_384x288_adam_lr1e-3.yaml     TEST.MODEL_FILE models/pytorch/pose_coco/pose_hrnet_w32_384x288.pth DATASET.DATASET img_coco DATASET.ROOT data/office1 TEST.COCO_BBOX_FILE data/office1/office1_coco_gt.json 
